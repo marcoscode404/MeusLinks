@@ -16,6 +16,7 @@
 }
 
 .links-header h1 {
+    font-size: 2rem;
     color: #fff;
 }
 
@@ -64,6 +65,18 @@
     border: 0;
     background: transparent;
 }
+
+
+.empty-text{
+    width: 100%;
+    margin-top: 2.8rem;
+    font-size: 2.4rem;
+    color: rgb(226, 241, 11);
+    text-align: center;
+}
+
+
+
 
 /* responsividade */
 @media (max-width: 400px){

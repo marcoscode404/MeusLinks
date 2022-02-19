@@ -10,7 +10,7 @@
 .container-error img {
     max-width: 30rem;
     margin: 2.4rem 0;
-    animation: shake 1.5s infinite;
+    animation: shake 2s ;
 }
 
 /* animation shake img*/

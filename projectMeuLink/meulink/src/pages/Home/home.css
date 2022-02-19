@@ -43,6 +43,18 @@
     }
 }
 
+/* animação subindo area input */
+@keyframes slideY2{
+    from{
+        transform: translateY(10rem);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+
+
+
 .area-input div{
     width: 100%;
     height: 4.5rem;
@@ -86,6 +98,17 @@
 
 .area-input button:hover{
     transform: scale(1.05);
+}
+
+
+
+.anunc {
+    width: min(55rem, 90%);
+    height: 10rem;
+    margin-top: 2rem;
+    background-color: rgba(233, 224, 224, 0.918);
+    animation: slideY2 2s;
+    border-radius: .4rem;
 }
 
 
